@@ -1,16 +1,26 @@
-html,
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;700;800&display=swap");
+/* footer {
+  position: absolute;
+  bottom: 0;
+} */
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: white !important;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.nav-link a {
+  color: white !important;
+  text-transform: lowercase;
 }
 
-* {
-  box-sizing: border-box;
+.navbar-brand {
+  color: #fdb827 !important;
+}
+
+section {
+  padding: 30px;
+}
+
+.logo {
+  width: 35px;
 }
