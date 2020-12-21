@@ -1,4 +1,4 @@
-import { Row, Col, Container, Image } from "react-bootstrap";
+import { Button, Row, Col, Container, Image } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 const Intro = () => {
   return (
@@ -12,6 +12,10 @@ const Intro = () => {
               <br /> Fullstack Developer
             </p>
           </div>
+
+          <Button className={styles.button} variant="light">
+            Hire Me
+          </Button>
           <div>
             {/* <Image className={styles.polygon} src="/images/dash.svg" /> */}
             <Image src="/images/coding_.svg" className={styles.polygon} />
