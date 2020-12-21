@@ -13,10 +13,10 @@ const Service = ({ title, icon, desc }) => {
         .item {
           padding: 20px;
           box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.3);
-          background-color: #21209c;
+          background-color: rgb(256, 256, 256, 0.9);
           border-radius: 20px;
-
-          color: white;
+          z-index: 1;
+          color: #21209c;
         }
       `}</style>
     </>

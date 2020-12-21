@@ -4,9 +4,10 @@ import Service from "./Service";
 const Services = () => {
   return (
     <section className={styles.services}>
+      <Image src="/images/service.svg" className={styles.serviceSVG} />
       <div className={styles.servicesWrapper}>
-        <h1 className={styles.serviceTitle}>services</h1>
         <Container>
+          <h1 className={styles.serviceTitle}>services</h1>
           <div className={styles.servicesList}>
             <Service
               icon={
@@ -51,15 +52,11 @@ const Services = () => {
             />
           </div>
         </Container>
-      </div>
-      <Image className={styles.serviceEllipse1} src="/images/circles2.svg" />
-      {/* <Image className={styles.serviceEllipse2} src="/images/circles.svg" /> */}
 
-      <Image
-        src="/image/service.svg"
-        className={styles.serviceSVG}
-        width="232"
-      />
+        <Image className={styles.serviceEllipse1} src="/images/circles2.svg" />
+      </div>
+
+      {/* <Image className={styles.serviceEllipse2} src="/images/circles.svg" /> */}
     </section>
   );
 };

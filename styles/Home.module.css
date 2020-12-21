@@ -80,12 +80,12 @@
 .services {
   position: relative;
   z-index: 3;
-  padding-top: 260px;
 }
 
 .servicesWrapper {
   position: relative;
   z-index: 3;
+  padding-top: 100px;
 }
 
 .serviceTitle {
@@ -101,15 +101,8 @@
 
 .serviceEllipse1 {
   position: absolute;
-  bottom: -150px;
+  bottom: -180px;
   right: 80px;
-  width: 300px;
-}
-
-.serviceEllipse2 {
-  position: absolute;
-  bottom: -150px;
-  left: 80px;
   width: 300px;
 }
 
@@ -119,11 +112,9 @@
 }
 
 .serviceSVG {
+  width: 400px;
+  top: 0;
   position: absolute;
-  width: 45%;
-  top: -220px;
-  left: 30px;
-  z-index: 1;
 }
 
 .serviceImage {
@@ -134,11 +125,30 @@
 
 /* Portfolio */
 .portfolio {
-  background-color: #f6f5f1;
+  background-color: #f4f4f4;
+  position: relative;
+  z-index: 2;
   color: black;
+  min-height: 70vh;
 }
 
+.portfolioSVG {
+  position: absolute;
+  top: -60px;
+  left: 10px;
+  z-index: 4;
+  width: 400px;
+}
+
+.portfolioTitle {
+  padding-top: 130px;
+  color: #21209c;
+}
 @media screen and (max-width: 900px) {
+  .introText > p {
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
   .polygon {
     z-index: 2;
     top: 120vh;
