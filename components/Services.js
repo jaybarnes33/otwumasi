@@ -11,7 +11,10 @@ const Services = () => {
           <div className={styles.servicesList}>
             <Service
               icon={
-                <Image className={styles.serviceImage} src="/images/html.png" />
+                <Image
+                  className={styles.serviceImage}
+                  src="/images/webdev.svg"
+                />
               }
               title="Web Development"
               desc="         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus "
@@ -21,7 +24,7 @@ const Services = () => {
               icon={
                 <Image
                   className={styles.serviceImage}
-                  src="/images/mobile_testing.png"
+                  src="/images/mobile.svg"
                 />
               }
               desc="         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus "
@@ -31,7 +34,7 @@ const Services = () => {
               icon={
                 <Image
                   className={styles.serviceImage}
-                  src="/images/code_development_.png"
+                  src="/images/desktop.svg"
                 />
               }
               desc="         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus "
@@ -44,7 +47,7 @@ const Services = () => {
               icon={
                 <Image
                   className={styles.serviceImage}
-                  src="/images/designer_.png"
+                  src="/images/design.svg"
                 />
               }
               title="UI/UX Design"
