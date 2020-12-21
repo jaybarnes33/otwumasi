@@ -149,6 +149,13 @@
     font-weight: bold;
     font-size: 2.2rem;
   }
+
+  .serviceEllipse1 {
+    position: absolute;
+    bottom: -105px;
+    right: 30px;
+    width: 150px;
+  }
   .polygon {
     z-index: 2;
     top: 120vh;
@@ -174,6 +181,14 @@
     width: 60%;
     bottom: 10px;
     left: 100px;
+  }
+
+  .portfolioSVG {
+    position: absolute;
+    top: -60px;
+    left: 10px;
+    z-index: 4;
+    width: 400px;
   }
 }
 
