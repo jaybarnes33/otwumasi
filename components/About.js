@@ -1,4 +1,4 @@
-import { Image, Container, Row, Col } from "react-bootstrap";
+import { Image, Container, Row, Col, Button } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 const About = () => {
   return (
@@ -20,6 +20,9 @@ const About = () => {
                   Computer Science and Engineering degree at the University of
                   Mines and Technology, Tarkwa - Ghana.
                 </p>
+                <Button className={styles.button} variant="light">
+                  Hire Me
+                </Button>
               </Col>
             </Row>
           </div>

@@ -17,7 +17,7 @@ const Services = () => {
                 />
               }
               title="Web Development"
-              desc="         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus "
+              desc="I make cool and modern looking websites and web apps to promote businesses and also to link people."
             />
             <Service
               title="Mobile Development"
@@ -27,7 +27,7 @@ const Services = () => {
                   src="/images/mobile.svg"
                 />
               }
-              desc="         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus "
+              desc="I make trendy mobile apps to make technology and other stuff more accessible."
             />
             <Service
               title="Desktop Development"
@@ -37,7 +37,7 @@ const Services = () => {
                   src="/images/desktop.svg"
                 />
               }
-              desc="         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus "
+              desc="I build Desktop apps that increases productivity in your company which also make life easier for everyone."
             />
             {/* <Service
               title="Coaching"
@@ -51,7 +51,7 @@ const Services = () => {
                 />
               }
               title="UI/UX Design"
-              desc="         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus "
+              desc="I design great interfaces with the aim of increasing user conversion and also improving user experience."
             />
           </div>
         </Container>
