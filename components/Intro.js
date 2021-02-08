@@ -18,7 +18,7 @@ const Intro = () => {
           </Button>
           <div>
             {/* <Image className={styles.polygon} src="/images/dash.svg" /> */}
-            <Image src="/images/coding_.svg" className={styles.polygon} />
+            {/* <Image src="/images/coding_.svg" className={styles.polygon} /> */}
           </div>
         </div>
       </Container>

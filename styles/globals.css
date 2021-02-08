@@ -17,6 +17,17 @@ body {
   color: #fdb827 !important;
 }
 
+nav {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  background-color: #21209c;
+  z-index: 4 !important;
+  padding: 10px 10px !important;
+  transition: background-color ease-in 0.4s;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
 section {
   padding: 30px;
 }
@@ -27,4 +38,18 @@ section {
 
 footer {
   text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar-collapse {
+    min-height: 100vh;
+    text-align: center;
+    color: black !important;
+    padding: 20vh 0;
+
+    font-size: 1.5rem !important;
+  }
+
+  nav {
+  }
 }
