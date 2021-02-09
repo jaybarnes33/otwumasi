@@ -18,7 +18,7 @@ const Address = () => {
             </span>
           </a>
 
-          <a href="https://wa.me/233553494195/?text=Hi%Barnes,">
+          <a href="https://wa.me/233543288549/?text=Hi Barnes,">
             <span>
               <i className="mr-3 fab fa-whatsapp"></i>
             </span>
