@@ -43,16 +43,6 @@ const Services = () => {
               title="Coaching"
               desc="         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus "
             /> */}
-            <Service
-              icon={
-                <Image
-                  className={styles.serviceImage}
-                  src="/images/design.svg"
-                />
-              }
-              title="UI/UX Design"
-              desc="I design great interfaces with the aim of increasing user conversion and also improving user experience."
-            />
           </div>
         </Container>
 
