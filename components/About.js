@@ -1,5 +1,6 @@
 import { Image, Container, Row, Col, Button } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
+import Address from "./Address";
 const About = () => {
   return (
     <section>
@@ -25,6 +26,7 @@ const About = () => {
                     Hire Me
                   </Button>
                 </a>
+                <Address />
               </Col>
             </Row>
           </div>

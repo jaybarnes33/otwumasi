@@ -40,6 +40,30 @@ footer {
   text-align: center;
 }
 
+.address {
+  margin: 0 30px;
+  margin-bottom: 30px;
+  display: inline-flex;
+}
+
+.address i {
+  font-size: 1.7rem;
+}
+
+.address a {
+  color: white;
+}
+
+.address a:hover {
+  color: white;
+  transform: translateY(10px);
+}
+
+.address i:hover {
+  transform: scale(1.5);
+  margin: 0 10px;
+}
+
 @media screen and (max-width: 800px) {
   .navbar-collapse {
     min-height: 100vh;
