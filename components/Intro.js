@@ -13,9 +13,11 @@ const Intro = () => {
             </p>
           </div>
 
-          <Button className={styles.button} variant="light">
-            Hire Me
-          </Button>
+          <a href="tel:+233543288549">
+            <Button className={styles.button} variant="light">
+              Hire Me
+            </Button>
+          </a>
           <div>
             {/* <Image className={styles.polygon} src="/images/dash.svg" /> */}
             {/* <Image src="/images/coding_.svg" className={styles.polygon} /> */}

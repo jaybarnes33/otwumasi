@@ -20,9 +20,11 @@ const About = () => {
                   Computer Science and Engineering degree at the University of
                   Mines and Technology, Tarkwa - Ghana.
                 </p>
-                <Button className={styles.button} variant="light">
-                  Hire Me
-                </Button>
+                <a href="tel:+233543288549">
+                  <Button className={styles.button} variant="light">
+                    Hire Me
+                  </Button>
+                </a>
               </Col>
             </Row>
           </div>
