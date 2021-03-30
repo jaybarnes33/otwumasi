@@ -1,11 +1,18 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
+import Project from "./Project";
+import projects from "../data/projects.js";
 export const Portfolio = () => {
   return (
     <section className={styles.portfolio}>
       <Container>
         <h1 className={styles.portfolioTitle}>portfolio</h1>
+        <div className={styles.projectsWrapper}>
+          {projects.map((project) => (
+            <Project image={project.image} desc={project.desc} />
+          ))}
+        </div>
       </Container>
       <svg
         className={styles.portfolioSVG}

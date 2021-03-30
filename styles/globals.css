@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@300;700;800&display=swap");
 /* footer {
   position: absolute;
   bottom: 0;
@@ -8,12 +8,16 @@ body {
   background-color: white !important;
 }
 
+.nav-link a{
+  padding: 0 1rem;
+}
+
 .nav-link a {
-  color: white !important;
+  color: white;
 }
 
 .navbar-brand {
-  color: #fdb827 !important;
+  color: #fdb827;
 }
 
 nav {
