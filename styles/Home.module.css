@@ -174,11 +174,12 @@
     display: none;
   }
   .aboutText {
-    padding: 0 20px;
+    padding: 10px 20px;
   }
 
   .me {
     width: 220px;
+    padding: 15px 0;
     height: 340px;
   }
 
