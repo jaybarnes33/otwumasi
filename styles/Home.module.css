@@ -174,7 +174,7 @@
 }
 
 .projectImage {
-  width: 300px;
+  width: 320px;
 }
 
 .projectsWrapper {
@@ -183,8 +183,38 @@
   flex-wrap: wrap;
 }
 
+.project {
+  position: relative;
+}
+
+.projectImage {
+  width: 300px;
+}
 .projectsWrapper > div {
   margin: 10px;
+  text-align: center;
+}
+
+.projectText {
+  box-sizing: border-box;
+  background-color: #1e212da1;
+  color: #f4f4f4;
+  padding: 60px 50px;
+  z-index: 1;
+  position: absolute;
+  left: 0%;
+  top: 10%;
+}
+
+.projectText p {
+  box-sizing: ;
+  padding: 10px;
+}
+.projectButton {
+  background-color: #f0a500;
+  padding: 8px 25px;
+  border-radius: 5px;
+  color: #f4f4f4;
 }
 @media screen and (max-width: 900px) {
   .introText > p {
