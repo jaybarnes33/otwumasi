@@ -112,6 +112,7 @@
 }
 
 .serviceTitle {
+  color: #f4f4f4;
 }
 
 .servicesList {
@@ -166,6 +167,34 @@
 .main button {
   width: 120px;
   padding: 0.7rem;
+}
+
+.techWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.techWrapper > div {
+  margin: 10px;
+  color: #f4f4f4;
+}
+
+.techImage {
+  position: relative;
+  z-index: 3;
+  width: 120px;
+  height: 120px;
+  object-fit: fill;
+}
+
+.techTitle {
+  text-transform: lowercase;
+  color: #1e212d;
+}
+
+.technologies {
+  background-color: #f4f4f4;
 }
 
 .portfolioTitle {

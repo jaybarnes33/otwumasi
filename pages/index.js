@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 import styles from "../styles/Home.module.css";
 import Services from "../components/Services";
 import { Portfolio } from "../components/Portfolio";
-
+import { Technologies } from "../components/Technologies";
 export default function Home() {
   return (
     <Layout>
@@ -24,6 +24,7 @@ export default function Home() {
         <Intro />
         <About />
         <Services />
+        <Technologies />
         <Portfolio />
       </div>
     </Layout>
