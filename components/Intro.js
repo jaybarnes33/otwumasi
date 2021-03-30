@@ -14,7 +14,7 @@ const Intro = () => {
           </div>
 
           <a href="tel:+233543288549">
-            <Button className={styles.button} variant="light">
+            <Button className={styles.button} variant="warning">
               Hire Me
             </Button>
           </a>
