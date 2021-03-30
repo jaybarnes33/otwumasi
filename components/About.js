@@ -11,7 +11,7 @@ const About = () => {
           <div className={styles.aboutText}>
             <Row>
               <Col>
-                <Image className={styles.me} src="/images/me3.png" />
+                <Image className={styles.me} src="/images/jay.JPG" />
               </Col>
               <Col>
                 Writer, Developer
@@ -22,7 +22,7 @@ const About = () => {
                   Mines and Technology, Tarkwa - Ghana.
                 </p>
                 <a href="tel:+233543288549">
-                  <Button className={styles.button} variant="light">
+                  <Button className={styles.button} variant="warning">
                     Hire Me
                   </Button>
                 </a>
