@@ -189,6 +189,8 @@
 
 .projectImage {
   width: 300px;
+  position: relative;
+  z-index: 1;
 }
 .projectsWrapper > div {
   margin: 10px;
@@ -204,13 +206,19 @@
   position: absolute;
   left: 0%;
   top: 10%;
+  height: 220px;
 }
 
+.projectText:hover {
+  transform: translatex(320px);
+}
 .projectText p {
-  box-sizing: ;
   padding: 10px;
+  min-width: 210px;
 }
 .projectButton {
+  position: relative;
+  z-index: 3;
   background-color: #f0a500;
   padding: 8px 25px;
   border-radius: 5px;

@@ -10,7 +10,11 @@ export const Portfolio = () => {
         <h1 className={styles.portfolioTitle}>portfolio</h1>
         <div className={styles.projectsWrapper}>
           {projects.map((project) => (
-            <Project image={project.image} desc={project.desc} />
+            <Project
+              image={project.image}
+              desc={project.desc}
+              demo={project.link}
+            />
           ))}
         </div>
       </Container>
