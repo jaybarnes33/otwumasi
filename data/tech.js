@@ -30,7 +30,11 @@ const tech = [
   },
   {
     name: "javascript",
-    image: "/images/tech/javascript.svg",
+    image: "/images/tech/javascript2.svg",
+  },
+  {
+    name: "typescript",
+    image: "/images/tech/typescript.svg",
   },
   {
     name: "css",
