@@ -209,9 +209,9 @@
   height: 220px;
 }
 
-.projectText:hover {
+/* .projectText:hover {
   transform: translatex(320px);
-}
+} */
 .projectText p {
   padding: 10px;
   min-width: 210px;
