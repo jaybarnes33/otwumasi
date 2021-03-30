@@ -9,7 +9,7 @@ const projects = [
     name: "Otwumasi",
     desc: "My Portfolio",
     image: "/images/portfolio/otwumasi.png",
-    link: "https://www.otwumasi.tech",
+    link: "/",
   },
   {
     name: "Galaxy Foundation Ghana",
