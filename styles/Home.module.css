@@ -189,6 +189,8 @@
 }
 
 .techTitle {
+  position: relative;
+  z-index: 3;
   text-transform: lowercase;
   color: #1e212d;
 }
