@@ -16,7 +16,7 @@ const Service = ({ title, icon, desc }) => {
           background-color: rgb(256, 256, 256, 0.9);
           border-radius: 20px;
           z-index: 1;
-          color: #21209c;
+          color: #1e212d;
         }
       `}</style>
     </>
