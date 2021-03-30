@@ -150,9 +150,14 @@
   width: 400px;
 }
 
+.main button {
+  width: 120px;
+  padding: 0.7rem;
+}
+
 .portfolioTitle {
   padding-top: 130px;
-  color: #21209c;
+  color: #1e212d;
 }
 @media screen and (max-width: 900px) {
   .introText > p {
