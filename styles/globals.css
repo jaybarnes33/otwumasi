@@ -38,9 +38,17 @@ footer {
   text-align: center;
 }
 
-.address {
-  margin: 0 30px;
+.address  {
+  margin-top: 20px;
+  position: absolute;
+  bottom: -20px;
+  right: 30px;
+  /* margin: 0 30px; */
   margin-bottom: 30px;
+  
+}
+
+.address ul {
   display: inline-flex;
 }
 
@@ -62,6 +70,10 @@ footer {
   margin: 0 10px;
 }
 
+a {
+  text-decoration: none!important;
+}
+
 @media screen and (max-width: 800px) {
   .navbar-collapse {
     min-height: 100vh;
@@ -74,4 +86,22 @@ footer {
 
   nav {
   }
+
+
+  button {
+    
+  }
+  .address  {
+    position: absolute;
+  margin-top: 20px;
+  width: 50%;
+  left: 50px;
+    bottom: 0px;
+    /* margin: 0 30px; */
+    
+  }
+
+
+
+  
 }

@@ -3,8 +3,9 @@ import React from "react";
 const Address = () => {
   return (
     <div className="mt-3">
-      <h5>Contact me on</h5>
+      
       <address className="address">
+      <h5>Contact me on</h5>
         <ul>
           <a href="https://www.linkedin.com/in/jbotwumasi/">
             <span>

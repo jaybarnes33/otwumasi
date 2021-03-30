@@ -9,7 +9,7 @@ const Intro = () => {
             I am
             <p>
               John Barnes Oduro Twumasi,
-              <br /> Fullstack Developer
+              <br /> <span>Fullstack Developer</span>
             </p>
           </div>
 

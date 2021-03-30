@@ -26,8 +26,9 @@ const About = () => {
                     Hire Me
                   </Button>
                 </a>
-                <Address />
+                
               </Col>
+              <Address />
             </Row>
           </div>
         </Container>
