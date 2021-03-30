@@ -10,7 +10,6 @@ body {
 
 .nav-link a {
   color: white !important;
-  text-transform: lowercase;
 }
 
 .navbar-brand {
@@ -38,15 +37,7 @@ footer {
   text-align: center;
 }
 
-.address  {
-  margin-top: 20px;
-  position: absolute;
-  bottom: -20px;
-  right: 30px;
-  /* margin: 0 30px; */
-  margin-bottom: 30px;
-  
-}
+
 
 .address ul {
   display: inline-flex;
@@ -91,14 +82,9 @@ a {
   button {
     
   }
-  .address  {
-    position: absolute;
-  margin-top: 20px;
-  width: 50%;
-  left: 50px;
-    bottom: 0px;
-    /* margin: 0 30px; */
-    
+  
+  .address i {
+    font-size: 1.;
   }
 
 

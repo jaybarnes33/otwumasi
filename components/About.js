@@ -1,4 +1,4 @@
-import { Image, Container, Row, Col, Button } from "react-bootstrap";
+import {  Container,  Button } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import Address from "./Address";
 const About = () => {
@@ -6,14 +6,14 @@ const About = () => {
     <section>
       <div className={styles.aboutWrapper}>
         <Container>
-          <Image className={styles.ellipse} src="/images/circles.svg" />
+          <img className={styles.ellipse} src="/images/circles.svg" />
 
           <div className={styles.aboutText}>
-            <Row>
-              <Col>
-                <Image className={styles.me} src="/images/jay.JPG" />
-              </Col>
-              <Col>
+            
+              <div className={styles.image}>
+                <img className={styles.me} src="/images/jay.JPG" />
+              </div>
+              <div className={styles.text}>
                 Writer, Developer
                 <p className={styles.aboutMe}>
                   <h2 className={styles.intro}>hi, I am Barnes </h2>I am 19yrs
@@ -27,9 +27,8 @@ const About = () => {
                   </Button>
                 </a>
                 
-              </Col>
               <Address />
-            </Row>
+              </div>
           </div>
         </Container>
 

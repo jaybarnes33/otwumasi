@@ -67,7 +67,7 @@ const Header = () => {
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
-                  <Link href="/contact">Contact</Link>
+                  <Link href="/blog">Blog</Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
@@ -75,11 +75,7 @@ const Header = () => {
                   <Link href="/projects">Projects</Link>
                 </Nav.Link>
               </Nav.Item>
-              <Nav.Item>
-                <Nav.Link>
-                  <Link href="/gallery">Gallery</Link>
-                </Nav.Link>
-              </Nav.Item>
+             
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -60,7 +60,6 @@
 .me {
   width: 400px;
   height: 350px;
-  margin: 0px 20px 0px 30px;
   object-fit: contain;
   position: relative;
   z-index: -1;
@@ -68,18 +67,32 @@
 }
 .intro {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
+
+.image {
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  padding: 0 20px;
+}
+
 .aboutText {
   position: relative;
   z-index: 3;
-  padding: 40px 160px;
+  padding: 40px 60px;
   background-color: rgb(256, 256, 256, 0.9);
   border-radius: 20px;
+  display: flex;
+  
 }
 
 .aboutText .fa {
   color: #1e212d;
+}
+
+.text {
+  padding: 0 20px;
 }
 
 .wave {
@@ -229,9 +242,11 @@
     font-size: 1.7rem;
   }
 
-  .aboutWrapper button{
-    margin-bottom: 120px;
+  .aboutText {
+    flex-direction: column;
   }
+
+  
 
   
 }
