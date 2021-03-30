@@ -19,14 +19,18 @@ const tech = [
     name: "sql",
     image: "/images/tech/sql.svg",
   },
-  {
-    name: "javascript",
-    image: "/images/tech/javascript.svg",
-  },
 
+  {
+    name: "php",
+    image: "/images/tech/php.svg",
+  },
   {
     name: "react",
     image: "/images/tech/react.svg",
+  },
+  {
+    name: "javascript",
+    image: "/images/tech/javascript.svg",
   },
   {
     name: "css",
