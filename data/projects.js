@@ -15,7 +15,7 @@ const projects = [
     name: "Galaxy Foundation Ghana",
     desc: "NGO website",
     image: "/images/portfolio/galaxy.png",
-    link: "http://www.galaxyfo.herokuapp.com",
+    link: "http://galaxyfo.herokuapp.com",
   },
 ];
 
