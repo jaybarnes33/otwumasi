@@ -37,6 +37,10 @@ const tech = [
     image: "/images/tech/typescript.svg",
   },
   {
+    name: "electron",
+    image: "/images/tech/electron.svg",
+  },
+  {
     name: "css",
     image: "/images/tech/css.svg",
   },
