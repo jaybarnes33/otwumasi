@@ -1,6 +1,7 @@
 import styles from "../styles/Home.module.css";
 import { Image, Container, Row, Col } from "react-bootstrap";
 import Service from "./Service";
+import Fade from "react-reveal/Fade";
 const Services = () => {
   return (
     <section className={styles.services} id="services">
@@ -9,36 +10,39 @@ const Services = () => {
         <Container>
           <h1 className={styles.serviceTitle}>services</h1>
           <div className={styles.servicesList}>
-            <Service
-              icon={
-                <Image
-                  className={styles.serviceImage}
-                  src="/images/webdev.svg"
-                />
-              }
-              title="Web Development"
-              desc="I make cool and modern looking websites and web apps to promote businesses and also to link people."
-            />
-            <Service
-              title="Mobile Development"
-              icon={
-                <Image
-                  className={styles.serviceImage}
-                  src="/images/mobile.svg"
-                />
-              }
-              desc="I make trendy mobile apps to make technology and other stuff more accessible."
-            />
-            <Service
-              title="Desktop Development"
-              icon={
-                <Image
-                  className={styles.serviceImage}
-                  src="/images/desktop.svg"
-                />
-              }
-              desc="I build Desktop apps that increases productivity in your company which also make life easier for everyone."
-            />
+            <Fade>
+              <Service
+                icon={
+                  <Image
+                    className={styles.serviceImage}
+                    src="/images/webdev.svg"
+                  />
+                }
+                title="Web Development"
+                desc="I make cool and modern looking websites and web apps to promote businesses and also to link people."
+              />
+              <Service
+                title="Mobile Development"
+                icon={
+                  <Image
+                    className={styles.serviceImage}
+                    src="/images/mobile.svg"
+                  />
+                }
+                desc="I make trendy mobile apps to make technology and other stuff more accessible."
+              />
+              <Service
+                title="Desktop Development"
+                icon={
+                  <Image
+                    className={styles.serviceImage}
+                    src="/images/desktop.svg"
+                  />
+                }
+                desc="I build Desktop apps that increases productivity in your company which also make life easier for everyone."
+              />
+            </Fade>
+
             {/* <Service
               title="Coaching"
               desc="         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus "

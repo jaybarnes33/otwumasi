@@ -3,20 +3,23 @@ import { Container } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import Project from "./Project";
 import projects from "../data/projects.js";
+import Zoom from "react-reveal/Zoom";
 export const Portfolio = () => {
   return (
     <section className={styles.portfolio} id="projects">
       <Container>
         <h1 className={styles.portfolioTitle}>portfolio</h1>
         <div className={styles.projectsWrapper}>
-          {projects.map((project) => (
-            <Project
-              key={project.name}
-              image={project.image}
-              desc={project.desc}
-              demo={project.link}
-            />
-          ))}
+          <Zoom right>
+            {projects.map((project) => (
+              <Project
+                key={project.name}
+                image={project.image}
+                desc={project.desc}
+                demo={project.link}
+              />
+            ))}
+          </Zoom>
         </div>
       </Container>
       <svg
