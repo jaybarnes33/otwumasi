@@ -62,17 +62,12 @@ const Header = () => {
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link as={Link} href="#about">
-                  <a className="active">About</a>
+                  <a>About</a>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link as={Link} href="#services">
                   <a>Services</a>
-                </Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link as={Link} href="/blog">
-                  <a>Blog</a>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
