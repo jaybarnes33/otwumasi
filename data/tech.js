@@ -53,6 +53,10 @@ const tech = [
     name: "mongodb",
     image: "/images/tech/mongodb.svg",
   },
+  {
+    name: "git",
+    image: "/images/tech/git.svg",
+  },
 ];
 
 export default tech;

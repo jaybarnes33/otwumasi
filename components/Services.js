@@ -3,7 +3,7 @@ import { Image, Container, Row, Col } from "react-bootstrap";
 import Service from "./Service";
 const Services = () => {
   return (
-    <section className={styles.services}>
+    <section className={styles.services} id="services">
       <Image src="/images/service.svg" className={styles.serviceSVG} />
       <div className={styles.servicesWrapper}>
         <Container>

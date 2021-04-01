@@ -35,9 +35,9 @@
 
 .ellipse {
   position: absolute;
-  left: -80px;
+  left: -100px;
   width: 250px;
-  top: 50px;
+  top: 140px;
   z-index: 1;
 }
 
@@ -52,7 +52,8 @@
 .aboutWrapper {
   position: relative;
   z-index: 3;
-  margin-top: -30px;
+
+  padding-top: 60px;
 }
 
 .me {
@@ -92,23 +93,15 @@
   padding: 0 20px;
 }
 
-.wave {
-  width: 100%;
-  left: 0;
-  bottom: 0px;
-  position: absolute;
-  z-index: 3;
-}
-
 .services {
   position: relative;
   z-index: 3;
+  padding-top: 240px;
 }
 
 .servicesWrapper {
   position: relative;
   z-index: 3;
-  padding-top: 100px;
 }
 
 .serviceTitle {
@@ -137,7 +130,7 @@
 
 .serviceSVG {
   width: 400px;
-  top: 0;
+  top: 100px;
   position: absolute;
 }
 
@@ -149,19 +142,20 @@
 
 /* Portfolio */
 .portfolio {
-  background-color: #f4f4f4;
   position: relative;
   z-index: 2;
   color: black;
+  background-color: #f4f4ee;
   min-height: 70vh;
+  padding: 50px 0;
 }
 
 .portfolioSVG {
   position: absolute;
   top: -60px;
-  left: 10px;
+  left: 20px;
   z-index: 4;
-  width: 400px;
+  width: 350px;
 }
 
 .main button {
@@ -173,6 +167,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 20px;
 }
 
 .techWrapper > div {
@@ -196,6 +191,7 @@
 }
 
 .technologies {
+  padding-top: 100px;
   background-color: #f4f4f4;
 }
 
@@ -312,7 +308,7 @@
   .aboutTitle {
     position: absolute;
     /* width: 180px; */
-    top: 5px;
+    bottom: 60px;
     right: 190px;
   }
 }

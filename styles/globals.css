@@ -5,14 +5,11 @@
 } */
 
 body {
-  background-color: white !important;
+  /* scroll-behavior: smooth; */
 }
 
-.nav-link a{
+.nav-item a {
   padding: 0 1rem;
-}
-
-.nav-link a {
   color: white;
 }
 
@@ -41,8 +38,6 @@ footer {
   text-align: center;
 }
 
-
-
 .address ul {
   display: inline-flex;
 }
@@ -66,7 +61,16 @@ footer {
 }
 
 a {
-  text-decoration: none!important;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item:hover {
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 800px) {
@@ -82,16 +86,10 @@ a {
   nav {
   }
 
-
   button {
-    
   }
-  
+
   .address i {
-    font-size: 1.;
+    font-size: 1;
   }
-
-
-
-  
 }

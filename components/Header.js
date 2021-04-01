@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Image, Container, Navbar, Nav } from "react-bootstrap";
-
 import Link from "next/link";
+
 const Header = () => {
   const [clicked, setClicked] = useState(false);
 
@@ -22,7 +22,7 @@ const Header = () => {
           <Navbar.Toggle
             // className="form-control"
             style={{ maxWidth: "50px" }}
-            aria-controls="basic-navbar-nav"
+            aria-controls="navbar-nav"
             onClick={handleClick}
           >
             {!clicked ? (
@@ -45,7 +45,7 @@ const Header = () => {
                 width="25"
                 height="25"
                 fill="white"
-                class="bi bi-backspace"
+                className="bi bi-backspace"
                 viewBox="0 0 16 16"
               >
                 <path d="M5.83 5.146a.5.5 0 0 0 0 .708L7.975 8l-2.147 2.146a.5.5 0 0 0 .707.708l2.147-2.147 2.146 2.147a.5.5 0 0 0 .707-.708L9.39 8l2.146-2.146a.5.5 0 0 0-.707-.708L8.683 7.293 6.536 5.146a.5.5 0 0 0-.707 0z" />
@@ -56,26 +56,35 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Item>
-                <Nav.Link>
-                  <Link href="/">Home</Link>
+                <Nav.Link as={Link} href="/">
+                  <a>Home</a>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link>
-                  <Link href="/about">About</Link>
+                <Nav.Link as={Link} href="#about">
+                  <a>About</a>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link>
-                  <Link href="/blog">Blog</Link>
+                <Nav.Link as={Link} href="#services">
+                  <a>Services</a>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link>
-                  <Link href="/projects">Projects</Link>
+                <Nav.Link as={Link} href="/blog">
+                  <a>Blog</a>
                 </Nav.Link>
               </Nav.Item>
-             
+              <Nav.Item>
+                <Nav.Link as={Link} href="#skills">
+                  <a>Skills</a>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link as={Link} href="#projects">
+                  <a>Projects</a>
+                </Nav.Link>
+              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Container>
