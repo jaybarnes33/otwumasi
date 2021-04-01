@@ -1,16 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@300;700;800&display=swap");
+
 /* footer {
   position: absolute;
   bottom: 0;
 } */
 
-body {
-  /* scroll-behavior: smooth; */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .nav-item a {
   padding: 0 1rem;
   color: white;
+}
+
+.active {
+  color: #fdb827 !important;
 }
 
 .navbar-brand {
@@ -78,15 +84,17 @@ a {
     min-height: 100vh;
     text-align: center;
     color: black !important;
-    padding: 20vh 0;
+    padding: 25vh 0;
 
     font-size: 1.5rem !important;
   }
 
   nav {
+    background-color: #1e212da1;
   }
 
-  button {
+  .nav-item {
+    padding: 10px;
   }
 
   .address i {

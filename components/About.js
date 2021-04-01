@@ -1,6 +1,7 @@
 import { Container, Button } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import Address from "./Address";
+import Zoom from "react-reveal/Zoom";
 
 const About = () => {
   return (
@@ -16,21 +17,23 @@ const About = () => {
               loading="lazy"
             />
           </div>
-          <section className={styles.text}>
-            Writer, Developer
-            <h2 className={styles.intro}>hi, I am Barnes</h2>
-            <p className={styles.aboutMe}>
-              I am 19yrs old, from Obuasi - Ghana, and currently pursuing a BSc.
-              Computer Science and Engineering degree at the University of Mines
-              and Technology, Tarkwa - Ghana.
-            </p>
-            <a href="tel:+233543288549">
-              <Button className={styles.button} variant="warning">
-                Hire Me
-              </Button>
-            </a>
-            <Address />
-          </section>
+          <Zoom right>
+            <section className={styles.text}>
+              Writer, Developer
+              <h2 className={styles.intro}>hi, I am Barnes</h2>
+              <p className={styles.aboutMe}>
+                I am 19yrs old, from Obuasi - Ghana, and currently pursuing a
+                BSc. Computer Science and Engineering degree at the University
+                of Mines and Technology, Tarkwa - Ghana.
+              </p>
+              <a href="tel:+233543288549">
+                <Button className={styles.button} variant="warning">
+                  Hire Me
+                </Button>
+              </a>
+              <Address />
+            </section>
+          </Zoom>
         </div>
       </Container>
 
