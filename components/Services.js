@@ -19,7 +19,7 @@ const Services = () => {
                   />
                 }
                 title="Web Development"
-                desc="I make cool and modern looking websites and web apps to promote businesses and also to link people."
+                desc="I make cool and modern looking websites and web apps to promote your business."
               />
               <Service
                 title="Mobile Development"
@@ -29,7 +29,7 @@ const Services = () => {
                     src="/images/mobile.svg"
                   />
                 }
-                desc="I make trendy mobile apps to make technology and other stuff more accessible."
+                desc="I make mobile apps that help your business reach a wider audience."
               />
               <Service
                 title="Desktop Development"
@@ -39,7 +39,7 @@ const Services = () => {
                     src="/images/desktop.svg"
                   />
                 }
-                desc="I build Desktop apps that increases productivity in your company which also make life easier for everyone."
+                desc="I build Desktop apps that digitize activities in your workplace"
               />
             </Fade>
 

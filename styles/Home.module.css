@@ -132,12 +132,15 @@
 .servicesList > div {
   margin: 10px;
   width: 250px;
+  position: relative;
+  z-index: 3;
 }
 
 .serviceSVG {
   width: 400px;
   top: 100px;
   position: absolute;
+  z-index: 2;
 }
 
 .serviceImage {
