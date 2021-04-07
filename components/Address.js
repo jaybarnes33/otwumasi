@@ -27,7 +27,7 @@ const Address = () => {
           </a>
 
           <a
-            href="https://wa.me/233249161070/?text=Hi Barnes,"
+            href="https://wa.me/233543288549/?text=Hi Barnes,"
             target="_blank"
             rel="noopener noreferrer"
           >
