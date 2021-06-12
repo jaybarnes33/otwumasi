@@ -19,7 +19,7 @@ const About = () => {
           </div>
           <Zoom right>
             <section className={styles.text}>
-              Writer, Developer
+              Writer, Junior Fullstack Developer at Get-Local Inc.
               <h2 className={styles.intro}>hi, I am Barnes</h2>
               <p className={styles.aboutMe}>
                 I am 19yrs old, from Obuasi - Ghana, and currently pursuing a
