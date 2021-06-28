@@ -11,13 +11,12 @@ const Header = () => {
   };
 
   const handleToggle = () => {
-    if (dark) {
-      document.documentElement.style.setProperty("--main-color", "#1e212d");
-      document.documentElement.style.setProperty("--text", "#f4f4f4");
-    } else {
-      document.documentElement.style.setProperty("--main-color", "#f4f4f4");
-      document.documentElement.style.setProperty("--text", "#1e212d");
-    }
+    setDark(!dark);
+    dark
+      ? (document.documentElement.style.setProperty("--main-color", "#1e212d"),
+        document.documentElement.style.setProperty("--text", "#f4f4f4"))
+      : (document.documentElement.style.setProperty("--main-color", "#f4f4f4"),
+        document.documentElement.style.setProperty("--text", "#1e212d"));
   };
   return (
     <header>
@@ -33,11 +32,10 @@ const Header = () => {
           <span
             className="btn-sm  toggler"
             onClick={(e) => {
-              setDark(!dark);
               handleToggle();
             }}
           >
-            <i className={!dark ? "bi bi-sun-fill" : "bi bi-moon-fill"}></i>
+            <i className={`bi ${dark ? "bi-moon-fill" : "bi-sun-fill"}`}></i>
           </span>
           <Navbar.Toggle
             // className="form-control"
