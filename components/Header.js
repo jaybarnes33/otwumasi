@@ -11,7 +11,6 @@ const Header = () => {
   };
 
   const handleToggle = () => {
-    setDark(!dark);
     if (dark) {
       document.documentElement.style.setProperty("--main-color", "#1e212d");
       document.documentElement.style.setProperty("--text", "#f4f4f4");
@@ -24,6 +23,7 @@ const Header = () => {
     <header>
       <Navbar expand="lg" collapseOnSelect fixed="top">
         <Container>
+          <h1>{dark}</h1>
           <Link href="/">
             <a>
               <Navbar.Brand>
@@ -31,7 +31,13 @@ const Header = () => {
               </Navbar.Brand>
             </a>
           </Link>
-          <span className="btn-sm  toggler" onClick={handleToggle}>
+          <span
+            className="btn-sm  toggler"
+            onClick={(e) => {
+              setDark(!dark);
+              handleToggle();
+            }}
+          >
             <i className={!dark ? "bi bi-sun-fill" : "bi bi-moon-fill"}></i>
           </span>
           <Navbar.Toggle
