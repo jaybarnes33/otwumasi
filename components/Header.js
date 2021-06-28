@@ -1,12 +1,24 @@
 import { useState } from "react";
-import { Image, Container, Navbar, Nav } from "react-bootstrap";
+import { Image, Container, Navbar, Nav, Button } from "react-bootstrap";
 import Link from "next/link";
 
 const Header = () => {
   const [clicked, setClicked] = useState(false);
+  const [dark, setDark] = useState(false);
 
   const handleClick = () => {
     setClicked(!clicked);
+  };
+
+  const handleToggle = () => {
+    setDark(!dark);
+    if (dark) {
+      document.documentElement.style.setProperty("--main-color", "#1e212d");
+      document.documentElement.style.setProperty("--text", "#f4f4f4");
+    } else {
+      document.documentElement.style.setProperty("--main-color", "#f4f4f4");
+      document.documentElement.style.setProperty("--text", "#1e212d");
+    }
   };
   return (
     <header>
@@ -31,7 +43,6 @@ const Header = () => {
                 height="1em"
                 viewBox="0 0 16 16"
                 className="bi bi-filter-right"
-                fill="white"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -44,7 +55,6 @@ const Header = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
                 height="25"
-                fill="white"
                 className="bi bi-backspace"
                 viewBox="0 0 16 16"
               >
@@ -82,6 +92,9 @@ const Header = () => {
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>
+          <span className=" btn-sm ml-5 toggler" onClick={handleToggle}>
+            <i className={!dark ? "bi bi-sun-fill" : "bi bi-moon-fill"}></i>
+          </span>
         </Container>
       </Navbar>
     </header>

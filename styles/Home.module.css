@@ -2,7 +2,7 @@
 
 .main {
   /* position: relative; */
-  background-color: #1e212d;
+  background-color: var(--main-color);
 
   background-size: contain;
   overflow: hidden;
@@ -21,7 +21,7 @@
   position: relative;
   z-index: 2;
   font-size: 1rem;
-  color: #f4f4f4;
+  color: var(--text);
 }
 
 .introText > p {
@@ -60,6 +60,9 @@
   z-index: 3;
 
   padding-top: 60px;
+}
+
+.aboutWrapper .text > span {
 }
 
 .me {
@@ -111,7 +114,7 @@
 }
 
 .serviceTitle {
-  color: #f4f4f4;
+  color: var(--text);
 }
 
 .servicesList {
@@ -154,7 +157,7 @@
   position: relative;
   z-index: 2;
   color: black;
-  background-color: #f4f4ee;
+  background-color: var(--main-color);
   min-height: 70vh;
   padding: 50px 0;
 }
@@ -181,7 +184,7 @@
 
 .techWrapper > div {
   margin: 10px;
-  color: #f4f4f4;
+  color: var(--text);
 }
 
 .techImage {
@@ -201,7 +204,7 @@
 
 .technologies {
   padding-top: 100px;
-  background-color: #f4f4f4;
+  background-color: var(--main-color);
 }
 
 .portfolioTitle {
@@ -236,7 +239,7 @@
 .projectText {
   box-sizing: border-box;
   background-color: #1e212da1;
-  color: #f4f4f4;
+  color: var(--text);
   padding: 60px 50px;
   z-index: 1;
   position: absolute;
