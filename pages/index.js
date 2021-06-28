@@ -19,7 +19,17 @@ export default function Home() {
           crossOrigin="anonymous"
         />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <meta
+          name="description"
+          content="I am a full-stack javascript developer with a passion for building useful and life changing products for the community. I am a fervent believer in acquiring and honing skills.
+
+My strength lies in a firm understanding of the Javascript language and Javascript frameworks and libraries like React, Node and express and using these and other tools in building full-stack applications.
+
+I believe in giving back to communities and hence, I have avid interest in opensource and also helping out other new developers. "
+        />
+        <meta property="og:image" content="./images/barnes.png" />
       </Head>
+
       <div className={styles.main}>
         <Intro />
         <About />
