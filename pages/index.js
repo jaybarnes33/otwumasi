@@ -27,7 +27,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://www.otwumasi.tech/images/barnes.png"
+          content="https://www.otwumasi.tech/images/jay.JPG"
         />
       </Head>
 
