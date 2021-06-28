@@ -25,7 +25,10 @@ export default function Home() {
                   My strength lies in a firm understanding of the Javascript language and Javascript frameworks and libraries like React, Node and express and using these and other tools in building full-stack applications.
                   I believe in giving back to communities and hence, I have avid interest in opensource and also helping out other new developers. "
         />
-        <meta property="og:image" content="./images/barnes.png" />
+        <meta
+          property="og:image"
+          content="https://www.otwumasi.tech/images/barnes.png"
+        />
       </Head>
 
       <div className={styles.main}>
