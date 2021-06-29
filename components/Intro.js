@@ -2,6 +2,8 @@ import { Button, Row, Col, Container, Image } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import styles from "../styles/Home.module.css";
+import { useState } from "react";
+
 const Intro = () => {
   return (
     <Container as="section" className={styles.intro} id="home">

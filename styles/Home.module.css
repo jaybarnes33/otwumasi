@@ -240,7 +240,7 @@
 .projectText {
   box-sizing: border-box;
   background-color: #1e212da1;
-  color: var(--text);
+  color: #f4f4f4;
   padding: 60px 50px;
   z-index: 1;
   position: absolute;

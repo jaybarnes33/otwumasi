@@ -1,9 +1,20 @@
 import { useState } from "react";
 import { Image, Container, Navbar, Nav, Button } from "react-bootstrap";
 import Link from "next/link";
+import { useEffect } from "react";
 
 const Header = () => {
   const [clicked, setClicked] = useState(false);
+  useEffect(() => {
+    const navbar = document.getElementById("basic-navbar-nav");
+    for (const child of navbar.children) {
+      child.addEventListener("click", (e) => {
+        navbar.classList.remove("show");
+      });
+    }
+    setClicked(false);
+  }, [clicked]);
+
   const [dark, setDark] = useState(false);
 
   const handleClick = () => {

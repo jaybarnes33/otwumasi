@@ -30,9 +30,9 @@ html {
 
 .toggler {
   color: var(--text);
-  font-size: 2rem;
+  font-size: 1.7rem;
   position: absolute;
-  top: 0;
+  top: 5px;
   right: 90px;
   z-index: 9;
 }
