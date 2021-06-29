@@ -116,6 +116,10 @@ a {
     font-size: 1.5rem !important;
   }
 
+  .toggler {
+    right: 80px;
+  }
+
   nav {
     background-color: var(--main-color);
   }
