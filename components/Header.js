@@ -10,10 +10,10 @@ const Header = () => {
     for (const child of navbar.children) {
       child.addEventListener("click", (e) => {
         navbar.classList.remove("show");
+        setClicked(false);
       });
     }
-    setClicked(false);
-  }, [clicked]);
+  }, []);
 
   const [dark, setDark] = useState(false);
 
