@@ -33,7 +33,7 @@ html {
   font-size: 1.7rem;
   position: absolute;
   top: 5px;
-  right: 90px;
+  right: 30px;
   z-index: 9;
 }
 
@@ -80,7 +80,12 @@ footer {
 
 .address a:hover {
   color: white;
-  transform: translateY(10px);
+  transform: scale(1.1);
+}
+
+button:hover {
+  text-decoration: none !important;
+  color: inherit;
 }
 
 .address i:hover {

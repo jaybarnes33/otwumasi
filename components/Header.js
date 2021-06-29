@@ -9,8 +9,8 @@ const Header = () => {
     const navbar = document.getElementById("basic-navbar-nav");
     for (const child of navbar.children) {
       child.addEventListener("click", (e) => {
-        navbar.classList.remove("show");
         setClicked(false);
+        navbar.classList.remove("show");
       });
     }
   }, []);
