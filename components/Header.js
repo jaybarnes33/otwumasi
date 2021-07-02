@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Image, Container, Navbar, Nav, Button } from "react-bootstrap";
+import { Image, Container, Navbar, Nav } from "react-bootstrap";
 import Link from "next/link";
 import { useEffect } from "react";
 
@@ -9,13 +9,12 @@ const Header = () => {
     const navbar = document.getElementById("basic-navbar-nav");
     for (const child of navbar.children) {
       child.addEventListener("click", (e) => {
-        setClicked(false);
         navbar.classList.remove("show");
       });
     }
-  }, []);
+  }, [clicked]);
 
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
 
   const handleClick = () => {
     setClicked(!clicked);
@@ -59,7 +58,7 @@ const Header = () => {
             ) : (
               <i className="bi bi-backspace"></i>
             )}
-          </Navbar.Toggle>{" "}
+          </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Item>
