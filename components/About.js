@@ -19,14 +19,21 @@ const About = () => {
           </div>
           <Zoom right>
             <section className={styles.text}>
-              <span>Junior Fullstack Developer at Get-Local Inc.</span>
+              <span>
+                Freelance Fullstack Developer,<i>Upwork</i>{" "}
+              </span>
               <h2 className={styles.intro}>hi, I am Barnes</h2>
               <p className={styles.aboutMe}>
-                I am 19yrs old, from Obuasi - Ghana, and currently pursuing a
-                BSc. Computer Science and Engineering degree at the University
-                of Mines and Technology, Tarkwa - Ghana.
+                I am a full-stack javascript developer with a passion for
+                building useful and life changing products for the community. I
+                am a fervent believer in acquiring and honing skills. My
+                strength lies in a firm understanding of the Javascript language
+                and Javascript frameworks and libraries like React, Node and
+                express and using these and other tools in building full-stack
+                applications. I believe in giving back to communities and hence,
+                I have avid interest in building and growing communities.
               </p>
-              <a href="tel:+233543288549">
+              <a href="mailto:ohenesetwumasi@gmail.com">
                 <Button className={styles.button} variant="warning">
                   Hire Me
                 </Button>

@@ -13,13 +13,13 @@ const Intro = () => {
             I am
             <p>
               John Barnes Oduro Twumasi,
-              <br /> <span>&lt;Fullstack Developer/&gt;</span>
+              <br /> a&nbsp; <span>&lt;Fullstack Developer/&gt;</span>
             </p>
           </div>
         </Zoom>
 
         <Fade>
-          <a href="tel:+233543288549">
+          <a href="mailto:ohenesetwumasi@gmail.com">
             <Button className={styles.button} variant="warning">
               Hire Me
             </Button>

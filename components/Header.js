@@ -5,11 +5,14 @@ import { useEffect } from "react";
 
 const Header = () => {
   const [clicked, setClicked] = useState(false);
+
   useEffect(() => {
     const navbar = document.getElementById("basic-navbar-nav");
+
     for (const child of navbar.children) {
-      child.addEventListener("click", (e) => {
-        navbar.classList.remove("show");
+      child.addEventListener("click", () => {
+        clicked && navbar.classList.remove("show");
+        setClicked(false);
       });
     }
   }, [clicked]);
@@ -61,27 +64,27 @@ const Header = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Item>
+              <Nav.Item onClick={handleClick}>
                 <Nav.Link as={Link} href="#home">
                   <a>Home</a>
                 </Nav.Link>
               </Nav.Item>
-              <Nav.Item>
+              <Nav.Item onClick={handleClick}>
                 <Nav.Link as={Link} href="#about">
                   <a>About</a>
                 </Nav.Link>
               </Nav.Item>
-              <Nav.Item>
+              <Nav.Item onClick={handleClick}>
                 <Nav.Link as={Link} href="#services">
                   <a>Services</a>
                 </Nav.Link>
               </Nav.Item>
-              <Nav.Item>
+              <Nav.Item onClick={handleClick}>
                 <Nav.Link as={Link} href="#skills">
                   <a>Skills</a>
                 </Nav.Link>
               </Nav.Item>
-              <Nav.Item>
+              <Nav.Item onClick={handleClick}>
                 <Nav.Link as={Link} href="#projects">
                   <a>Projects</a>
                 </Nav.Link>
